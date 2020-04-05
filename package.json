@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "gatsby-starter-basic-bootstrap",
+  "private": false,
+  "description": "A very basic gatsby starter with react-bootstrap",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "mike wakerly <opensource@hoho.com>",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
@@ -22,7 +22,9 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "bootstrap",
+    "react-bootstrap"
   ],
   "license": "MIT",
   "scripts": {
@@ -36,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mik3y/gatsby-starter-basic-bootstrap"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/mik3y/gatsby-starter-basic-bootstrap/issues"
   }
 }
