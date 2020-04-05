@@ -1,8 +1,7 @@
-import React from "react"
-import { Col, Row } from "react-bootstrap"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const AboutPage = () => (
   <Layout>
@@ -21,6 +20,6 @@ const AboutPage = () => (
       </Col>
     </Row>
   </Layout>
-)
+);
 
-export default AboutPage
+export default AboutPage;

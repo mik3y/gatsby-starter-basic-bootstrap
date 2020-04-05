@@ -1,7 +1,7 @@
-import React from "react"
-import { Button, Jumbotron } from "react-bootstrap"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import { Button, Jumbotron } from "react-bootstrap";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +17,6 @@ const IndexPage = () => (
       </p>
     </Jumbotron>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
