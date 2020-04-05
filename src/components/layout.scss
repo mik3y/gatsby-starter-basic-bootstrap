@@ -1,1 +1,13 @@
-@import "~bootstrap/scss/bootstrap.scss";
+// Main scss.
+
+// Import your own bootstrap customizations as variables first.
+// @import "./_variables.scss"
+
+// Import bootstrap and bootswatch. Replace "superhero" below with any
+// other bootswatch theme name (see https://bootswatch.com/), or remove
+// the bootswatch lines for default theme.
+@import "~bootswatch/dist/superhero/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/superhero/bootswatch";
+
+// Add other customizations below.
