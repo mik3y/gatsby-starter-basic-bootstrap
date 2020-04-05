@@ -2,6 +2,8 @@
 
 This is a basic starter for [GatsbyJS](https://www.gatsbyjs.org/), featuring [react-bootstrap](https://react-bootstrap.github.io/) and little else.
 
+![image](https://user-images.githubusercontent.com/390829/78501768-413c6e80-772b-11ea-9b8b-fd90a49c7dcb.png)
+
 ## 🚀 Quick start
 
 ```
