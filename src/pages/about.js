@@ -1,22 +1,48 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Card, ListGroup } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="About" />
     <Row>
       <Col>
         <h1>About</h1>
-        <p>
-          Spicy jalapeno bacon ipsum dolor amet ball tip cow id, prosciutto nisi
-          landjaeger dolore jerky est enim bresaola tempor. Jowl pork belly
-          salami officia landjaeger flank reprehenderit non labore ex sunt
-          proident shankle anim ea. Pig spare ribs sausage pork chop est, lorem
-          dolore andouille esse commodo. Minim voluptate shoulder flank anim
-          non.
-        </p>
+        <p>This is a basic gatsby starter</p>
+      </Col>
+    </Row>
+    <Row>
+      <Col md="6">
+        <Card>
+          <Card.Body>
+            <Card.Title>Features</Card.Title>
+            <Card.Text>
+              <ListGroup>
+                <ListGroup.Item>
+                  Uses react-bootstrap and little else
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  Optional theme support with bootswatch
+                </ListGroup.Item>
+                <ListGroup.Item>SCSS styling</ListGroup.Item>
+              </ListGroup>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col md="6">
+        <Card>
+          <Card.Body>
+            <Card.Title>More Information</Card.Title>
+            <Card.Text>
+              <ListGroup>
+                <ListGroup.Item action href="https://mik3y.github.io/gatsby-starter-basic-bootstrap/">Visit the demo page</ListGroup.Item>
+                <ListGroup.Item action href="https://github.com/mik3y/gatsby-starter-basic-bootstrap">View/edit on github</ListGroup.Item>
+              </ListGroup>
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </Col>
     </Row>
   </Layout>
